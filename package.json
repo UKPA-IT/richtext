@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/css": "^11.11.2",
+    "@slate-serializers/html": "^2.1.6",
+    "@slate-serializers/react": "^2.1.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "slate": "^0.101.4",
+    "slate-history": "^0.100.0",
+    "slate-react": "^0.101.3",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "is-hotkey": "^0.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
